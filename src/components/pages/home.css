@@ -17,27 +17,27 @@ blockquote {
 .krishna {
     height: 55vh;
     width: 75vh;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .content {
     width: 30%;
-    padding-right: 120px;
-    padding-left: 50px;
+    padding-right: 170px;
+    padding-left: 80px;
 }
 
-@media (max-width: 600px) {
-    .container {
+@media (max-width: 450) {
+     .container {
         flex-direction: column;
         justify-content: center;
     }
-
     .krishna {
         width: 80%;
+        
     }
     .content {
         width: auto;
         padding-bottom: 11px;
-    }
-    
+    } 
+   
 }
