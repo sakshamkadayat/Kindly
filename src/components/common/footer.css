@@ -1,19 +1,20 @@
 .footer-distributed {
-  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 9px 9px rgba(37, 8, 93, 0.1);
   box-sizing: border-box;
   width: 100%;
   text-align: center;
   font: normal 16px sans-serif;
-  padding: 42px 50px;
+  padding: 19px;
   position:fixed;
   bottom: 0;
   color: aliceblue;
-  border: 2px solid rgb(126, 141, 227);
-  border-radius: 8px;
+  border: 1px solid #15033a;
+  border-radius: 7px;
 }
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .footer-distributed {
   text-align: center;
   }
   
 }
+

@@ -3,12 +3,10 @@ import krishna from "../../Images/meta.png";
 import { Link} from "react-router-dom";
 export function Head() {
   return (
-    <header>
+ 
       <div className="nav-container">
         <div className="nav-image">
           <img src={krishna} className="logo" alt="logo"
-            height={'130vh'}
-            width={'250vh'}
           />
         </div>
         <nav className="nav-links">
@@ -31,6 +29,6 @@ export function Head() {
           </ul>
         </nav>
       </div>
-    </header>
+
   );
 }
