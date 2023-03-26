@@ -18,7 +18,7 @@ a {
   display: flex;
   align-items: center;
   box-shadow: 0 7px 7px rgba(172, 168, 168, 0.1);
-   margin-bottom: 22px;
+  margin-bottom: 22px;
 }
 
 .nav-links ul {
