@@ -1,9 +1,11 @@
 import "./home.css";
-import image from "../../Images/lord.png"
+import image from "../../Images/lord.png";
 export function Home() {
   return (
     <>
+      <div className="container-image"></div>
       <div className="big-container">
+        <div className="vertical"></div>
         <div className="content">
           <h2>Lord Krishna</h2>
           <blockquote>

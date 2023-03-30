@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #14032d;
+  background-color:#301a2f;
 }
 
 li,
@@ -19,6 +19,8 @@ a {
   align-items: center;
   box-shadow: 0 7px 7px rgba(172, 168, 168, 0.1);
   margin-bottom: 22px;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-links ul {
@@ -27,11 +29,14 @@ a {
   margin-left: 150px;
 }
 .logo{
-  height: 100px;
-  width: 200px;
+  height: 75px;
+  width: 150px;
 }
 .nav-links li {
   margin: 0 25px;
+}
+.nav-links li:hover{
+  border-bottom: 2px solid #0b3edc;
 }
 @media only screen and (max-width: 600px) {
   .nav-container{

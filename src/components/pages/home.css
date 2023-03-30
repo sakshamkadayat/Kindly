@@ -2,21 +2,49 @@
     display: flex;
 }
 .krishna{
-    height: 290px;
-    width: 250px;
-    padding-left: 290px;
+    height: 170px;
+    width: 190px;
+    padding-left: 150px;
 }
 .content{
     color: aliceblue;
     width: 30%;
     position: relative;
-    left: 190px;
-    margin-top: 55px;
-    padding-left: 58px;
-    padding-top: 22px;
+    left: 110px;
+    padding :17px;
     border: 1px solid;
+    max-height: 20vh;
     box-shadow: 12px 12px rgb(34, 5, 63);
+    text-align: justify;
 }
 blockquote{
     color: bisque;
+}
+.content h2{
+    padding-bottom: 12px;
+ text-align: center;
+}
+/* .vertical{
+    border-left: 5px solid green;
+
+} */
+.container-image {
+box-sizing: border-box;
+   border: 1px solid transparent;
+   height: 500px;
+   width: 100%;
+   background-image: url(../../Images/maur.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+}
+.container-image p{
+    color: rgb(239, 237, 240);
+    justify-content: center;
+    margin: 122px;
+    padding-left: 60px;
+    width: 70%;
+    background: none;
+    font-size: 28px;
 }
